@@ -1,11 +1,11 @@
 <center> <h2>Hi 👋, I am Domenic</h2> </center>
 
 
-- 🔭 I’m currently working on my To Do App
-- 🌱 I’m currently learning more Swift-Frameworks
+- 🔭 I’m currently working on Flutter apps
+- 🌱 I’m currently learning more
 - 💬 Ask me about everthing
-- 📫 How to reach me: info@d-moran.de
-- 📟 Visit my Website: d-moran.de
+- 📫 How to reach me: domenicmoran@gmail.com
+- 📟 Visit my Website: Website offline
 
 ## Skills
 - Design and implementation of libraries and native iOS apps
