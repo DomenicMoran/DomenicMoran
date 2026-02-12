@@ -20,5 +20,5 @@
 ---
 
 <center>
-  <img src="https://github-readme-stats.vercel.app/api?username=DEIN_NUTZERNAME&show_icons=true&theme=tokyonight" alt="Domenic's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=DomenicMoran&show_icons=true&theme=tokyonight" alt="Domenic's GitHub Stats" />
 </center>
