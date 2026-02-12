@@ -19,10 +19,3 @@
 - **Toolset:** REST, Core Data, Auto Layout, CocoaPods & more.
 
 ---
-
-### 📊 GitHub Stats
-<center>
-  <img src="https://github-readme-stats.vercel.app/api?username=domenicmoran&show_icons=true&theme=tokyonight" alt="Domenic's GitHub Stats" />
-</center>
-
----
