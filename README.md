@@ -7,7 +7,7 @@
 - 🌱 Seit **März 2022** aktiv in der Programmierung, mit Fokus auf Performance und User Experience.
 - 🍕 Referenzprojekt: Full-Service Web-Betreuung für **[La Sila Lieferservice](https://www.la-sila-lieferservice.de/)**.
 - 💬 Frag mich über: **Webdesign für Restaurants, Speisekarten-Digitalisierung oder React/Next.js.**
-- 📫 Kontakt: [Deine-E-Mail@beispiel.de]
+- 📫 Kontakt: [domenicmoran@gmail.com]
 - 📟 Besuche meine Arbeit: [menucloud-berlin.vercel.app](https://menucloud-berlin.vercel.app/) 🚀
 
 ---
