@@ -1,21 +1,32 @@
-<center> 
-  <h2>Hi 👋, I am Domenic</h2> 
+<center>  
+  <h2>Hi 👋, ich bin Domenic/h2>  
 </center>
 
-- 🚀 **Mobile & Systems Developer** focusing on Flutter, Dart, and C++.
-- 🔭 I’m currently working on **Advanced Flutter applications** and high-performance logic.
-- 🌱 I’m currently learning more about **C++ system architecture** and FFI integration.
-- 💬 Ask me about: **Flutter, iOS development, or C++ logic.**
-- 📫 How to reach me: [domenicmoran@gmail.com](mailto:domenicmoran@gmail.com)
-- 📟 Visit my Website: *Website offline / Under construction* 🚧
+- 🚀 **Fullstack Web Developer** spezialisiert auf digitale Lösungen für die Gastronomie.
+- 🔭 Ich arbeite aktuell an **[MenuCloud Berlin](https://menucloud-berlin.vercel.app/)**, einem modernen Dashboard für Restaurant-Menüs.
+- 🌱 Seit **März 2022** aktiv in der Programmierung, mit Fokus auf Performance und User Experience.
+- 🍕 Referenzprojekt: Full-Service Web-Betreuung für **[La Sila Lieferservice](https://www.la-sila-lieferservice.de/)**.
+- 💬 Frag mich über: **Webdesign für Restaurants, Speisekarten-Digitalisierung oder React/Next.js.**
+- 📫 Kontakt: [Deine-E-Mail@beispiel.de]
+- 📟 Besuche meine Arbeit: [menucloud-berlin.vercel.app](https://menucloud-berlin.vercel.app/) 🚀
 
 ---
 
 ## Skills
-- **Flutter & Dart:** Cross-platform development and high-quality UI/UX implementation.
-- **Native iOS:** Design and implementation of libraries and apps (Swift & Objective-C).
-- **C++ Systems:** Developing high-performance logic and system-level integrations.
-- **Quality & DevOps:** Maintenance, refactoring, Unit Testing, Jenkins, and Fastlane.
-- **Toolset:** REST, Core Data, Auto Layout, CocoaPods & more.
+- **Frontend & Design:** Erstellung moderner, responsiver Oberflächen mit React, Next.js und Tailwind CSS.
+- **Gastro-Logik:** Entwicklung von digitalen Speisekarten, Allergen-Filtern und optimierten Bestell-Interfaces.
+- **Performance & SEO:** Optimierung von Ladezeiten, damit Restaurants lokal in Berlin besser gefunden werden.
+- **Fullstack-Ansatz:** Von der ersten Design-Idee bis zum Deployment auf Vercel oder eigenen Servern.
+- **Toolset:** JavaScript (ES6+), TypeScript, Git, Vercel, UI/UX Design & Deployment-Workflows.
+
+---
+
+### 🛠️ Tech Stack
+| Bereich | Technologien |
+| :--- | :--- |
+| **Sprachen** | JavaScript, TypeScript, HTML5, CSS3 |
+| **Frameworks** | Next.js, React, Tailwind CSS |
+| **Hosting/Tools** | Vercel, GitHub, Netlify |
+| **Fokus** | Restaurant Tech, Mobile First, Performance |
 
 ---
