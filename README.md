@@ -8,7 +8,7 @@
 - 🍕 Referenzprojekt: Full-Service Web-Betreuung für **[La Sila Lieferservice](https://www.la-sila-lieferservice.de/)**.
 - 💬 Frag mich über: **Webdesign für Restaurants, Speisekarten-Digitalisierung oder React/Next.js.**
 - 📫 Kontakt: [domenicmoran@gmail.com]
-- 📟 Besuche meine Arbeit: [menucloud-berlin.vercel.app](https://menucloud-berlin.vercel.app/) 🚀
+- 📟 Besuche meine Arbeit: [menucloud-berlin.de](https://menucloud-berlin.de/) 🚀
 
 ---
 
