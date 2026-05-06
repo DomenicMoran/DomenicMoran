@@ -3,7 +3,7 @@
 </center>
 
 - 🚀 **Fullstack Web Developer** spezialisiert auf digitale Lösungen für die Gastronomie.
-- 🔭 Ich arbeite aktuell an **[MenuCloud Berlin](https://menucloud-berlin.vercel.app/)**, einem modernen Dashboard für Restaurant-Menüs.
+- 🔭 Ich arbeite aktuell an **[MenuCloud Berlin](https://menucloud-berlin.de/)**, einem modernen Dashboard für Restaurant-Menüs.
 - 🌱 Seit **März 2022** aktiv in der Programmierung, mit Fokus auf Performance und User Experience.
 - 🍕 Referenzprojekt: Full-Service Web-Betreuung für **[La Sila Lieferservice](https://www.la-sila-lieferservice.de/)**.
 - 💬 Frag mich über: **Webdesign für Restaurants, Speisekarten-Digitalisierung oder React/Next.js.**
