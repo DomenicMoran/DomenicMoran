@@ -34,8 +34,8 @@ Zwei davon hatte monatelang niemand bemerkt.
 - [Der gestrichelte Kreis kam nicht aus der Schrift](https://domenicmoran.de/artikel/gestrichelter-kreis-kam-nicht-aus-der-schrift)
 - [„Published" ist kein Beleg. Meine Updates kamen nie an.](https://domenicmoran.de/artikel/published-ist-kein-beleg)
 - [Alle Tests grün. Widget trotzdem leer auf dem echten Gerät.](https://domenicmoran.de/artikel/widget-leer-trotz-gruener-tests)
-- [KassenSichV in der Praxis: was in der Dokumentation nicht steht](https://domenicmoran.de/artikel/kassensichv-in-der-praxis)
-- [Warum ein kleineres Whisper-Modell mein größeres geschlagen hat](https://domenicmoran.de/artikel/kleineres-whisper-modell)
+- [KassenSichV in der Praxis: was die Dokumentation auslässt](https://domenicmoran.de/artikel/kassensichv-in-der-praxis)
+- [Warum ein kleineres Whisper-Modell mein größeres schlug](https://domenicmoran.de/artikel/kleineres-whisper-modell)
 
 ---
 
