@@ -63,7 +63,7 @@ Genau diese Regel ist als
 | **Web** | Next.js, React Server Components, Tailwind, Vercel |
 | **Mobil** | React Native, Expo, Android TV, Wear OS, App Widgets, Live Activities |
 | **Daten** | PostgreSQL, Supabase, Row Level Security, Migrationen |
-| **KI** | llama.cpp und GGUF auf dem Gerät, Whisper, eigenes RAG |
+| **KI** | Antwortsuche auf dem Gerät über eigenem Korpus, Whisper-Spracherkennung |
 | **Betrieb** | Docker, Hetzner, Coolify, Cloudflare, n8n, Playwright, Vitest |
 
 ---
