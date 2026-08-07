@@ -30,7 +30,7 @@ Inhalte. Öffentlich ist, was sich daraus herauslösen ließ.
 ### Geschrieben
 
 Fünf Fehler aus den eigenen Systemen, jeweils mit Ursache, Fix und Commit.
-Zwei davon hatte monatelang niemand bemerkt.
+Einen davon hatte monatelang niemand bemerkt, einen zweiten über Wochen.
 
 - [Der gestrichelte Kreis kam nicht aus der Schrift](https://domenicmoran.de/artikel/gestrichelter-kreis-kam-nicht-aus-der-schrift)
 - [„Published“ ist kein Beleg. Meine Updates kamen nie an.](https://domenicmoran.de/artikel/published-ist-kein-beleg)
