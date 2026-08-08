@@ -23,7 +23,7 @@ Inhalte. Öffentlich ist, was sich daraus herauslösen ließ.
 | **[whisper-ggml-header](https://github.com/DomenicMoran/whisper-ggml-header)** | Prüft, ob whisper.cpp ein Modell überhaupt lädt. Fängt die verbreitete Fehlkonvertierung ab. 17 Tests, null Abhängigkeiten. |
 | **[arabic-normalize](https://github.com/DomenicMoran/arabic-normalize)** | Normalisierung arabischer Schrift für den Vergleich. 23 Tests, null Abhängigkeiten. |
 | **[portfolio](https://github.com/DomenicMoran/portfolio)** | Der Quellcode von domenicmoran.de. Next.js 16, dokumentierte Entscheidungen. |
-| **[Zertifikate](https://github.com/DomenicMoran/Zertifikate)** | Zehn Kurszertifikate von Meta, LearnQuest und Udemy. Jedes beim Aussteller nachprüfbar. |
+| **[Zertifikate](https://github.com/DomenicMoran/certificates)** | Zehn Kurszertifikate von Meta, LearnQuest und Udemy. Jedes beim Aussteller nachprüfbar. |
 
 ---
 
