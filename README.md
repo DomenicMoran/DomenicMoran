@@ -22,7 +22,7 @@ Zertifikat.
 | **NOURI** | Ernährung und Training auf einem Katalog aus 11.892 Rezepten | [nouri-fitness.de](https://www.nouri-fitness.de) · [Play](https://play.google.com/store/apps/details?id=app.nouri.mobile) |
 | **BitDojo** | Deutschsprachige Lernplattform mit genau einer Lektionsbibliothek | [bitdojo.de](https://bitdojo.de) |
 | **Dartile** | Dart-Counter, der jeden Pfeil einzeln aufnimmt statt der Summe | [dartile.de](https://dartile.de) |
-| **LexiPulse** | RSVP-Reader für EPUB, PDF und Web-Artikel, offline und quelloffen | [lexipulse.de](https://lexipulse.de) · [Code](https://github.com/DomenicMoran/lexipulse) |
+| **LexiPulse** | RSVP-Reader für EPUB, PDF und Web-Artikel, offline und offen lesbar | [lexipulse.de](https://lexipulse.de) · [Code](https://github.com/DomenicMoran/lexipulse) |
 | **WohnungsJäger** | Autonomer Agent für den Berliner Wohnungsmarkt, Freigabe beim Menschen | im Eigenbetrieb |
 
 Die Fallstudien mit Architekturdiagrammen stehen auf
@@ -33,12 +33,13 @@ Die Fallstudien mit Architekturdiagrammen stehen auf
 ### Was ich veröffentliche
 
 Die Produktivsysteme bleiben privat, sie tragen Kundendaten und lizenzierte
-Inhalte. Öffentlich ist, was sich daraus herauslösen ließ, und LexiPulse
-vollständig.
+Inhalte. Öffentlich ist, was sich daraus herauslösen ließ. Die fünf Pakete
+stehen unter MIT; LexiPulse liegt vollständig offen, aber unter PolyForm
+Noncommercial: lesbar und prüfbar, nicht zur gewerblichen Nutzung freigegeben.
 
 | Repository | Worum es geht |
 | :--- | :--- |
-| **[lexipulse](https://github.com/DomenicMoran/lexipulse)** | Der ganze RSVP-Reader unter MIT. Engine, Parser und Bereinigung ohne DOM und ohne React Native, 309 Tests. |
+| **[lexipulse](https://github.com/DomenicMoran/lexipulse)** | Der ganze RSVP-Reader. Engine, Parser und Bereinigung ohne DOM und ohne React Native, 309 Tests. |
 | **[darts-checkout](https://github.com/DomenicMoran/darts-checkout)** | Die Checkout-Tafel aus Dartile. Auf 40 gibt es über achtzig richtige Wege und genau einen, den jemand wirft. 25 Tests, null Abhängigkeiten. |
 | **[verified-done](https://github.com/DomenicMoran/verified-done)** | Vier Claude-Code-Skills gegen die Behauptung ohne Beleg. Jeder stammt aus einem Fehler, der ausgeliefert wurde. 16 Tests, null Abhängigkeiten. |
 | **[cron-last-due](https://github.com/DomenicMoran/cron-last-due)** | Wann war dieser Cron zuletzt fällig? Zeitzonenbewusst, für Watchdogs. 23 Tests, null Abhängigkeiten. |
