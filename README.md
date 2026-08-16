@@ -3,21 +3,42 @@
 **AI Product Engineer, Berlin.** Ich baue Produkte allein zu Ende: Architektur,
 Code, Auslieferung, Betrieb und Recht.
 
-Vier Systeme in Produktion, seit März 2026 neben einem Vollzeitjob entstanden.
-Zwei davon mit Apps in beiden Stores, eines mit gesetzlich vorgeschriebener
-Fiskalisierung nach § 146a AO, eines ein autonomer Agent.
+Sieben Systeme in Produktion, seit März 2026 neben einem Vollzeitjob entstanden.
+Acht Store-Einträge sind öffentlich, drei weitere Apps liegen in der Prüfung.
+Eines der Systeme trägt gesetzlich vorgeschriebene Fiskalisierung nach § 146a AO,
+eines ist ein autonomer Agent, eines eine Lernplattform mit Prüfung und
+Zertifikat.
 
 → **[domenicmoran.de](https://domenicmoran.de)** · [English](https://domenicmoran.de/en)
+
+---
+
+### Was läuft
+
+| System | Was es ist | Wo |
+| :--- | :--- | :--- |
+| **Salati** | Gebets- und Koran-App über vier Geräteklassen, KI auf dem Gerät | [salati.pro](https://www.salati.pro) · [App Store](https://apps.apple.com/de/app/salati-gebetszeiten-koran/id6791867298) · [Play](https://play.google.com/store/apps/details?id=de.salatibox.de) |
+| **MenuCloud Berlin** | Multi-Tenant-SaaS für Gastronomie mit Cloud-TSE nach § 146a AO | [menucloud-berlin.de](https://menucloud-berlin.de) |
+| **NOURI** | Ernährung und Training auf einem Katalog aus 11.892 Rezepten | [nouri-fitness.de](https://www.nouri-fitness.de) · [Play](https://play.google.com/store/apps/details?id=app.nouri.mobile) |
+| **BitDojo** | Deutschsprachige Lernplattform mit genau einer Lektionsbibliothek | [bitdojo.de](https://bitdojo.de) |
+| **Dartile** | Dart-Counter, der jeden Pfeil einzeln aufnimmt statt der Summe | [dartile.de](https://dartile.de) |
+| **LexiPulse** | RSVP-Reader für EPUB, PDF und Web-Artikel, offline und quelloffen | [lexipulse.de](https://lexipulse.de) · [Code](https://github.com/DomenicMoran/lexipulse) |
+| **WohnungsJäger** | Autonomer Agent für den Berliner Wohnungsmarkt, Freigabe beim Menschen | im Eigenbetrieb |
+
+Die Fallstudien mit Architekturdiagrammen stehen auf
+[domenicmoran.de](https://domenicmoran.de/#work).
 
 ---
 
 ### Was ich veröffentliche
 
 Die Produktivsysteme bleiben privat, sie tragen Kundendaten und lizenzierte
-Inhalte. Öffentlich ist, was sich daraus herauslösen ließ.
+Inhalte. Öffentlich ist, was sich daraus herauslösen ließ, und LexiPulse
+vollständig.
 
 | Repository | Worum es geht |
 | :--- | :--- |
+| **[lexipulse](https://github.com/DomenicMoran/lexipulse)** | Der ganze RSVP-Reader unter MIT. Engine, Parser und Bereinigung ohne DOM und ohne React Native, 309 Tests. |
 | **[verified-done](https://github.com/DomenicMoran/verified-done)** | Vier Claude-Code-Skills gegen die Behauptung ohne Beleg. Jeder stammt aus einem Fehler, der ausgeliefert wurde. 16 Tests, null Abhängigkeiten. |
 | **[cron-last-due](https://github.com/DomenicMoran/cron-last-due)** | Wann war dieser Cron zuletzt fällig? Zeitzonenbewusst, für Watchdogs. 23 Tests, null Abhängigkeiten. |
 | **[whisper-ggml-header](https://github.com/DomenicMoran/whisper-ggml-header)** | Prüft, ob whisper.cpp ein Modell überhaupt lädt. Fängt die verbreitete Fehlkonvertierung ab. 17 Tests, null Abhängigkeiten. |
