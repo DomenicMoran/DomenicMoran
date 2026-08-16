@@ -3,11 +3,11 @@
 **AI Product Engineer, Berlin.** Ich baue Produkte allein zu Ende: Architektur,
 Code, Auslieferung, Betrieb und Recht.
 
-Sieben Systeme in Produktion, seit März 2026 neben einem Vollzeitjob entstanden.
-Acht Store-Einträge sind öffentlich, drei weitere Apps liegen in der Prüfung.
-Eines der Systeme trägt gesetzlich vorgeschriebene Fiskalisierung nach § 146a AO,
-eines ist ein autonomer Agent, eines eine Lernplattform mit Prüfung und
-Zertifikat.
+Sieben Systeme in Produktion, seit März 2026 neben einem Vollzeitjob entstanden,
+zwei davon mit Apps in beiden Stores. Acht Store-Einträge sind öffentlich, drei
+weitere Apps liegen in der Prüfung. Eines der Systeme trägt gesetzlich
+vorgeschriebene Fiskalisierung nach § 146a AO, eines ist ein autonomer Agent,
+eines eine Lernplattform mit Prüfung und Zertifikat.
 
 → **[domenicmoran.de](https://domenicmoran.de)** · [English](https://domenicmoran.de/en)
 
