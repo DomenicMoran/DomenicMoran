@@ -39,6 +39,7 @@ vollständig.
 | Repository | Worum es geht |
 | :--- | :--- |
 | **[lexipulse](https://github.com/DomenicMoran/lexipulse)** | Der ganze RSVP-Reader unter MIT. Engine, Parser und Bereinigung ohne DOM und ohne React Native, 309 Tests. |
+| **[darts-checkout](https://github.com/DomenicMoran/darts-checkout)** | Die Checkout-Tafel aus Dartile. Auf 40 gibt es über achtzig richtige Wege und genau einen, den jemand wirft. 25 Tests, null Abhängigkeiten. |
 | **[verified-done](https://github.com/DomenicMoran/verified-done)** | Vier Claude-Code-Skills gegen die Behauptung ohne Beleg. Jeder stammt aus einem Fehler, der ausgeliefert wurde. 16 Tests, null Abhängigkeiten. |
 | **[cron-last-due](https://github.com/DomenicMoran/cron-last-due)** | Wann war dieser Cron zuletzt fällig? Zeitzonenbewusst, für Watchdogs. 23 Tests, null Abhängigkeiten. |
 | **[whisper-ggml-header](https://github.com/DomenicMoran/whisper-ggml-header)** | Prüft, ob whisper.cpp ein Modell überhaupt lädt. Fängt die verbreitete Fehlkonvertierung ab. 17 Tests, null Abhängigkeiten. |
@@ -50,9 +51,10 @@ vollständig.
 
 ### Geschrieben
 
-Fünf Fehler aus den eigenen Systemen, jeweils mit Ursache, Fix und Commit.
+Sechs Fehler aus den eigenen Systemen, jeweils mit Ursache, Fix und Commit.
 Einen davon hatte monatelang niemand bemerkt, einen zweiten über Wochen.
 
+- [Achtzehn Wege über das Bull, und der Test sah nur den letzten Pfeil](https://domenicmoran.de/artikel/achtzehn-wege-ueber-das-bull)
 - [Der gestrichelte Kreis kam nicht aus der Schrift](https://domenicmoran.de/artikel/gestrichelter-kreis-kam-nicht-aus-der-schrift)
 - [„Published“ ist kein Beleg. Meine Updates kamen nie an.](https://domenicmoran.de/artikel/published-ist-kein-beleg)
 - [Alle Tests grün. Widget trotzdem leer auf dem echten Gerät.](https://domenicmoran.de/artikel/widget-leer-trotz-gruener-tests)
