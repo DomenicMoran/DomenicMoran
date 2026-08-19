@@ -22,11 +22,29 @@ eines eine Lernplattform mit Prüfung und Zertifikat.
 | **NOURI** | Ernährung und Training auf einem Katalog aus 11.892 Rezepten | [nouri-fitness.de](https://www.nouri-fitness.de) · [Play](https://play.google.com/store/apps/details?id=app.nouri.mobile) |
 | **BitDojo** | Deutschsprachige Lernplattform mit genau einer Lektionsbibliothek | [bitdojo.de](https://bitdojo.de) |
 | **Dartile** | Dart-Counter, der jeden Pfeil einzeln aufnimmt statt der Summe | [dartile.de](https://dartile.de) |
-| **LexiPulse** | RSVP-Reader für EPUB, PDF und Web-Artikel, offline und offen lesbar | [lexipulse.de](https://lexipulse.de) · [Code](https://github.com/DomenicMoran/lexipulse) |
+| **LexiPulse** | Reader für EPUB, PDF und Web-Artikel: Wortstrom oder Fließtext, offline und offen lesbar | [lexipulse.de](https://lexipulse.de) · [Code](https://github.com/DomenicMoran/lexipulse) |
 | **WohnungsJäger** | Autonomer Agent für den Berliner Wohnungsmarkt, Freigabe beim Menschen | im Eigenbetrieb |
 
 Die Fallstudien mit Architekturdiagrammen stehen auf
 [domenicmoran.de](https://domenicmoran.de/#work).
+
+---
+
+### Was gerade entsteht
+
+Vier Projekte, angelegt im August 2026. Alle vier liegen in privaten
+Repositories und in keinem Laden; deshalb steht hier kein Verweis, den jemand
+anklicken könnte.
+
+| Projekt | Was es ist | Stand |
+| :--- | :--- | :--- |
+| **Aegis** | Belege fotografieren, Gewährleistungs- und Garantiefristen überwachen, EÜR und Kontoauszug abgleichen. Alles auf dem Gerät, die Ablage mit SQLCipher verschlüsselt | Kern, Web und App gebaut. 304 Tests im Kern bei 92 % Anweisungsabdeckung, 107 Tests in der App, 15 Web-Routen, alle statisch. Nicht eingereicht |
+| **Vesper** | Bewerbungen, Vorhaben und Kontakte auf einem Kanban-Brett, das den Rechner nicht verlässt, mit einem lokal laufenden Sprachmodell daneben | Gerüst steht, der Kern entsteht |
+| **Aether** | Der Tag als durchsuchbares Gedächtnis: Kontext und Notizen, auf dem Gerät ausgewertet | Gerüst steht |
+| **Synapse** | Aus PDFs und Notizen werden Lernkarten, wiederholt im Rhythmus von SM-2, offline | Gerüst steht |
+
+Die Fallstudie zu Aegis, mit Architekturbild und der Begründung, warum kein
+Bildschirmfoto danebensteht, ist auf der Seite verlinkt.
 
 ---
 
@@ -39,7 +57,7 @@ Noncommercial: lesbar und prüfbar, nicht zur gewerblichen Nutzung freigegeben.
 
 | Repository | Worum es geht |
 | :--- | :--- |
-| **[lexipulse](https://github.com/DomenicMoran/lexipulse)** | Der ganze RSVP-Reader. Engine, Parser und Bereinigung ohne DOM und ohne React Native, 309 Tests. |
+| **[lexipulse](https://github.com/DomenicMoran/lexipulse)** | Der ganze Reader. Engine, Parser und Bereinigung ohne DOM und ohne React Native, 561 Tests (am 19.08.2026 gemessen). |
 | **[darts-checkout](https://github.com/DomenicMoran/darts-checkout)** | Die Checkout-Tafel aus Dartile. Auf 40 gibt es über achtzig richtige Wege und genau einen, den jemand wirft. 25 Tests, null Abhängigkeiten. |
 | **[verified-done](https://github.com/DomenicMoran/verified-done)** | Vier Claude-Code-Skills gegen die Behauptung ohne Beleg. Jeder stammt aus einem Fehler, der ausgeliefert wurde. 16 Tests, null Abhängigkeiten. |
 | **[cron-last-due](https://github.com/DomenicMoran/cron-last-due)** | Wann war dieser Cron zuletzt fällig? Zeitzonenbewusst, für Watchdogs. 23 Tests, null Abhängigkeiten. |
