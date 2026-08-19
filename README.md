@@ -92,4 +92,4 @@ Genau diese Regel ist als
 
 ---
 
-**Kontakt** [domenicmoran@gmail.com](mailto:domenicmoran@gmail.com)
+**Kontakt** [kontakt@domenicmoran.de](mailto:kontakt@domenicmoran.de)
