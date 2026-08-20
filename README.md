@@ -24,6 +24,7 @@ eines eine Lernplattform mit Prüfung und Zertifikat.
 | **Dartile** | Dart-Counter, der jeden Pfeil einzeln aufnimmt statt der Summe | [dartile.de](https://dartile.de) |
 | **LexiPulse** | Reader für EPUB, PDF und Web-Artikel: Wortstrom oder Fließtext, offline und offen lesbar | [lexipulse.de](https://lexipulse.de) · [Code](https://github.com/DomenicMoran/lexipulse) |
 | **WohnungsJäger** | Autonomer Agent für den Berliner Wohnungsmarkt, Freigabe beim Menschen | im Eigenbetrieb |
+| **Moran Fleet Control (MFC)** | Die eine Anwendung für den Builder-Alltag: Multi-LLM-Router, Agenten über die lokale Claude-CLI, elf Micro-SaaS-Werkzeuge, Projekte, Backlog, Marketing, Vault – Desktop für Windows/macOS/Linux plus Web | [mfc.domenicmoran.de](https://mfc.domenicmoran.de) |
 
 Die Fallstudien mit Architekturdiagrammen stehen auf
 [domenicmoran.de](https://domenicmoran.de/#work).
@@ -32,16 +33,18 @@ Die Fallstudien mit Architekturdiagrammen stehen auf
 
 ### Was gerade entsteht
 
-Vier Projekte, angelegt im August 2026. Alle vier liegen in privaten
-Repositories und in keinem Laden; deshalb steht hier kein Verweis, den jemand
-anklicken könnte.
+Vier Apps, angelegt im August 2026. Alle vier sind am 20.08.2026 durch einen
+vollständigen Emulator-Durchlauf gegangen – jeder Bildschirm angeklickt,
+Verschlüsselung der Datenbank am Gerät nachgewiesen, zehn Fehler dabei gefunden
+und behoben. Die Store-Einträge (Play) sind angelegt und mit Beschreibungen und
+Ladenbildern befüllt; die Einreichung folgt mit den ersten Builds.
 
 | Projekt | Was es ist | Stand |
 | :--- | :--- | :--- |
-| **Aegis** | Belege fotografieren, Gewährleistungs- und Garantiefristen überwachen, EÜR und Kontoauszug abgleichen. Alles auf dem Gerät, die Ablage mit SQLCipher verschlüsselt | Kern, Web und App gebaut. 304 Tests im Kern bei 92 % Anweisungsabdeckung, 107 Tests in der App, 15 Web-Routen, alle statisch. Nicht eingereicht |
-| **Vesper** | Bewerbungen, Vorhaben und Kontakte auf einem Kanban-Brett, das den Rechner nicht verlässt, mit einem lokal laufenden Sprachmodell daneben | Gerüst steht, der Kern entsteht |
-| **Aether** | Der Tag als durchsuchbares Gedächtnis: Kontext und Notizen, auf dem Gerät ausgewertet | Gerüst steht |
-| **Synapse** | Aus PDFs und Notizen werden Lernkarten, wiederholt im Rhythmus von SM-2, offline | Gerüst steht |
+| **Aegis** | Belege fotografieren, Gewährleistungs- und Garantiefristen überwachen, EÜR und Kontoauszug abgleichen. Alles auf dem Gerät, SQLCipher-verschlüsselt | Kern, Web und App gebaut. 304 Tests im Kern bei 92 % Anweisungsabdeckung, Emulator-Audit mit Belegen. Play-Eintrag steht |
+| **Vesper** | Bewerbungen, Vorhaben und Kontakte auf einem Kanban-Brett, das den Rechner nicht verlässt, mit einem lokal laufenden Sprachmodell daneben | Emulator-Audit abgeschlossen (Sicherungs-Roundtrip verifiziert, Verschlüsselung belegt). Play-Eintrag steht |
+| **Aether** | Der Tag als durchsuchbares Gedächtnis: Kontext und Notizen, auf dem Gerät ausgewertet | Emulator-Audit abgeschlossen (Verschlüsselung belegt, vier Erfassungsquellen geprüft). Play-Eintrag steht |
+| **Synapse** | Aus PDFs und Notizen werden Lernkarten, wiederholt im Rhythmus von SM-2, offline | Emulator-Audit abgeschlossen (106 Screenshots, vier Fehler behoben, Verschlüsselung belegt). Play-Eintrag steht |
 
 Die Fallstudie zu Aegis, mit Architekturbild und der Begründung, warum kein
 Bildschirmfoto danebensteht, ist auf der Seite verlinkt.
