@@ -4,9 +4,10 @@
 Code, Auslieferung, Betrieb und Recht.
 
 Über zehn Systeme in Produktion, seit März 2026 neben einem Vollzeitjob entstanden,
-zwei davon mit Apps in beiden Stores. Sechs weitere Apps sind gebaut und auf
-dem Weg in die Läden: eine liegt in der Play-Prüfung, fünf weitere sind in der
-Play Console vorbereitet. Eines der Systeme trägt die gesetzlich vorgeschriebene
+zwei davon mit Apps in beiden Stores. Sechs weitere Apps sind gebaut, alles ist
+eingereicht: MFC Companion steht im Play Store, acht weitere Android-Fassungen
+liegen in der Play-Prüfung, zehn iOS-Fassungen bei Apple im Status „Wartet auf
+Prüfung“ (Stand 23.08.2026). Eines der Systeme trägt die gesetzlich vorgeschriebene
 Fiskalisierung nach § 146a AO, eines ist eine Desktop-App mit autonomer
 Agent-Schleife und Lizenzschutz, eines ein autonomer Wohnungsmarkt-Agent,
 eines eine Lernplattform mit Prüfung und Zertifikat.
@@ -33,20 +34,23 @@ Die Fallstudien mit Architekturdiagrammen stehen auf
 
 ---
 
-### Auf dem Weg in die Läden
+### Eingereicht und in Prüfung
 
-Sechs Apps, gebaut im August 2026. Keine liegt öffentlich in einem Laden:
-eine ist im Play Store eingereicht, fünf sind in der Play Console eingerichtet.
-Verlinkt ist deshalb nur eine Web-Seite, kein Laden.
+Sechs Apps, gebaut im August 2026, alle eingereicht. Stand 23.08.2026, abgelesen
+in Play Console und App Store Connect: MFC Companion steht öffentlich im Play
+Store, die fünf anderen sind dort seit dem 21.08. im Status „Wird überprüft“.
+Bei Apple warten zehn Fassungen auf die Prüfung — diese sechs Apps und die
+ersten iOS-Fassungen von BitDojo, Dartile, LexiPulse und NOURI, deren
+Android-Fassungen ebenfalls in der Play-Prüfung liegen.
 
 | App | Was es ist | Kategorie | Stand |
 | :--- | :--- | :--- | :--- |
-| **Vortex** | Erkennt Dropshipping und zeigt, was die Ware im Original kostet; die Auswertung läuft auf dem Gerät | — | [Web live](https://vortex.domenicmoran.de), Android im Play Store eingereicht |
-| **Aegis** | Bons und Rechnungen scannen, Gewährleistungs- und Garantiefristen überwachen, EÜR vorbereiten — alles lokal | Finanzen | Android gebaut, Play Console eingerichtet |
-| **Synapse** | PDF, Foto oder Text zu Lernkarten, Wiederholung im SM-2-Rhythmus, offline | Lernen | Android gebaut, Play Console eingerichtet |
-| **Vesper** | Bewerbungen, Vorhaben und Kontakte auf einem Kanban-Brett, mit lokal laufendem Sprachmodell | Effizienz | Android gebaut, Play Console eingerichtet |
-| **Aether** | Der Tag als durchsuchbares Gedächtnis: Notizen, Stimmung und Sprachnotizen, lokal verschlüsselt | Effizienz | Android gebaut, Play Console eingerichtet |
-| **MFC Companion** | MFC-Nachrichten als Push aufs Handy, Antworten per Knopfdruck zurück | Tools | Play-Eintrag vorbereitet |
+| **Vortex** | Erkennt Dropshipping und zeigt, was die Ware im Original kostet; die Auswertung läuft auf dem Gerät | — | [Web live](https://vortex.domenicmoran.de) · Android in Play-Prüfung · iOS wartet auf Prüfung |
+| **Aegis** | Bons und Rechnungen scannen, Gewährleistungs- und Garantiefristen überwachen, EÜR vorbereiten — alles lokal | Finanzen | [Web live](https://aegis.domenicmoran.de) · Android in Play-Prüfung · iOS wartet auf Prüfung |
+| **Synapse** | PDF, Foto oder Text zu Lernkarten, Wiederholung im SM-2-Rhythmus, offline | Lernen | [Web live](https://synapse.domenicmoran.de) · Android in Play-Prüfung · iOS wartet auf Prüfung |
+| **Vesper** | Bewerbungen, Vorhaben und Kontakte auf einem Kanban-Brett, mit lokal laufendem Sprachmodell | Effizienz | [Web live](https://vesper.domenicmoran.de) · Android in Play-Prüfung · iOS wartet auf Prüfung |
+| **Aether** | Der Tag als durchsuchbares Gedächtnis: Notizen, Stimmung und Sprachnotizen, lokal verschlüsselt | Effizienz | [Web live](https://aether.domenicmoran.de) · Android in Play-Prüfung · iOS wartet auf Prüfung |
+| **MFC Companion** | MFC-Nachrichten als Push aufs Handy, Antworten per Knopfdruck zurück | Tools | [Play](https://play.google.com/store/apps/details?id=de.domenicmoran.mfc.companion) · iOS wartet auf Prüfung |
 
 Die Fallstudien zu diesen Apps, mit Architekturbildern, stehen auf
 [domenicmoran.de](https://domenicmoran.de/#work).
