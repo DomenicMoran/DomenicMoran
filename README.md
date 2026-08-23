@@ -20,8 +20,8 @@ eines eine Lernplattform mit Prüfung und Zertifikat.
 
 | System | Was es ist | Wo |
 | :--- | :--- | :--- |
-| **Salati** | Gebets- und Koran-App über vier Geräteklassen, KI auf dem Gerät | [salati.pro](https://www.salati.pro) · [App Store](https://apps.apple.com/de/app/salati-gebetszeiten-koran/id6791867298) · [Play](https://play.google.com/store/apps/details?id=de.salatibox.de) |
-| **MenuCloud Berlin** | Multi-Tenant-SaaS für Gastronomie mit Cloud-TSE nach § 146a AO | [menucloud-berlin.de](https://menucloud-berlin.de) |
+| **Salati** | Gebets- und Koran-App über vier Geräteklassen, KI auf dem Gerät | [salati.pro](https://www.salati.pro) · [App Store](https://apps.apple.com/de/app/salati-gebetszeiten-koran/id6791867298) · [Play](https://play.google.com/store/apps/details?id=de.salatibox.de) · [Play TV](https://play.google.com/store/apps/details?id=de.salatibox.tv) |
+| **MenuCloud Berlin** | Multi-Tenant-SaaS für Gastronomie mit Cloud-TSE nach § 146a AO | [menucloud-berlin.de](https://menucloud-berlin.de) · [App Store](https://apps.apple.com/de/app/menucloud/id6762983057) · [Play](https://play.google.com/store/apps/details?id=de.menucloudberlin.app) |
 | **MFC** | Moran Fleet Control: Desktop-App (Windows, macOS, Linux) plus Web, mit Multi-LLM-Router, autonomer Agent-Schleife, verschlüsseltem Vault und Lizenzschutz. Einmalig 49,99 €, kein Abo | [mfc.domenicmoran.de](https://mfc.domenicmoran.de) |
 | **NOURI** | Ernährung und Training auf einem Katalog aus 11.892 Rezepten | [nouri-fitness.de](https://www.nouri-fitness.de) · [Play](https://play.google.com/store/apps/details?id=app.nouri.mobile) |
 | **BitDojo** | Deutschsprachige Lernplattform mit genau einer Lektionsbibliothek | [bitdojo.de](https://bitdojo.de) |
@@ -40,8 +40,9 @@ Sechs Apps, gebaut im August 2026, alle eingereicht. Stand 23.08.2026, abgelesen
 in Play Console und App Store Connect: MFC Companion steht öffentlich im Play
 Store, die fünf anderen sind dort seit dem 21.08. im Status „Wird überprüft“.
 Bei Apple warten zehn Fassungen auf die Prüfung — diese sechs Apps und die
-ersten iOS-Fassungen von BitDojo, Dartile, LexiPulse und NOURI, deren
-Android-Fassungen ebenfalls in der Play-Prüfung liegen.
+ersten iOS-Fassungen von BitDojo, Dartile, LexiPulse und NOURI. Von diesen
+vieren liegen BitDojo, Dartile und LexiPulse seit dem 19.08. auch in der
+Play-Prüfung; die Android-Fassung von NOURI steht dort bereits öffentlich.
 
 | App | Was es ist | Kategorie | Stand |
 | :--- | :--- | :--- | :--- |
@@ -60,18 +61,19 @@ Die Fallstudien zu diesen Apps, mit Architekturbildern, stehen auf
 ### Was ich veröffentliche
 
 Die Produktivsysteme bleiben privat, sie tragen Kundendaten und lizenzierte
-Inhalte. Öffentlich ist, was sich daraus herauslösen ließ. Die fünf Pakete
-stehen unter MIT; LexiPulse liegt vollständig offen, aber unter PolyForm
-Noncommercial: lesbar und prüfbar, nicht zur gewerblichen Nutzung freigegeben.
+Inhalte. Öffentlich ist, was sich daraus herauslösen ließ. Der Code steht unter
+MIT, mit einer Ausnahme: LexiPulse liegt vollständig offen, aber unter PolyForm
+Noncommercial — lesbar und prüfbar, nicht zur gewerblichen Nutzung freigegeben.
 
 | Repository | Worum es geht |
 | :--- | :--- |
 | **[lexipulse](https://github.com/DomenicMoran/lexipulse)** | Der ganze Reader. Engine, Parser und Bereinigung ohne DOM und ohne React Native, 561 Tests (am 19.08.2026 gemessen). |
-| **[darts-checkout](https://github.com/DomenicMoran/darts-checkout)** | Die Checkout-Tafel aus Dartile. Auf 40 gibt es über achtzig richtige Wege und genau einen, den jemand wirft. 25 Tests, null Abhängigkeiten. |
+| **[darts-checkout](https://github.com/DomenicMoran/darts-checkout)** | Die Checkout-Tafel aus Dartile. Auf 40 gibt es mit drei Darts 1012 arithmetisch richtige Wege und genau einen, den jemand wirft. 25 Tests, null Abhängigkeiten. |
 | **[verified-done](https://github.com/DomenicMoran/verified-done)** | Vier Claude-Code-Skills gegen die Behauptung ohne Beleg. Jeder stammt aus einem Fehler, der ausgeliefert wurde. 16 Tests, null Abhängigkeiten. |
 | **[cron-last-due](https://github.com/DomenicMoran/cron-last-due)** | Wann war dieser Cron zuletzt fällig? Zeitzonenbewusst, für Watchdogs. 23 Tests, null Abhängigkeiten. |
 | **[whisper-ggml-header](https://github.com/DomenicMoran/whisper-ggml-header)** | Prüft, ob whisper.cpp ein Modell überhaupt lädt. Fängt die verbreitete Fehlkonvertierung ab. 17 Tests, null Abhängigkeiten. |
 | **[arabic-normalize](https://github.com/DomenicMoran/arabic-normalize)** | Normalisierung arabischer Schrift für den Vergleich. 23 Tests, null Abhängigkeiten. |
+| **[microsaas](https://github.com/DomenicMoran/microsaas)** | Elf eigenständige Werkzeuge aus MFC, je eine `.mjs`-Datei mit derselben Schnittstelle. Open Core. |
 | **[portfolio](https://github.com/DomenicMoran/portfolio)** | Der Quellcode von domenicmoran.de. Next.js 16, dokumentierte Entscheidungen. |
 | **[Zertifikate](https://github.com/DomenicMoran/certificates)** | Zehn Kurszertifikate von Meta, LearnQuest und Udemy. Jedes beim Aussteller nachprüfbar. |
 
