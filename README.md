@@ -3,11 +3,12 @@
 **AI Product Engineer, Berlin.** Ich baue Produkte allein zu Ende: Architektur,
 Code, Auslieferung, Betrieb und Recht.
 
-Über zehn Systeme in Produktion, seit März 2026 neben einem Vollzeitjob entstanden,
-zwei davon mit Apps in beiden Stores. Sechs weitere Apps sind gebaut, alles ist
-eingereicht: MFC Companion steht im Play Store, acht weitere Android-Fassungen
-liegen in der Play-Prüfung, zehn iOS-Fassungen bei Apple im Status „Wartet auf
-Prüfung“ (Stand 23.08.2026). Eines der Systeme trägt die gesetzlich vorgeschriebene
+Dreizehn Systeme in Produktion, seit März 2026 neben einem Vollzeitjob entstanden,
+drei davon mit Apps in beiden Stores. Neunzehn Store-Einträge sind öffentlich,
+vierzehn bei Google Play und fünf im App Store; jede Adresse wurde am 06.09.2026
+einzeln per HTTP abgerufen, nicht aus einer Konsole abgelesen. Acht iOS-Fassungen
+liegen bei Apple in der Prüfung, alle acht sind bei Google Play bereits live.
+Eines der Systeme trägt die gesetzlich vorgeschriebene
 Fiskalisierung nach § 146a AO, eines ist eine Desktop-App mit autonomer
 Agent-Schleife und Lizenzschutz, eines ein autonomer Wohnungsmarkt-Agent,
 eines eine Lernplattform mit Prüfung und Zertifikat.
@@ -20,13 +21,13 @@ eines eine Lernplattform mit Prüfung und Zertifikat.
 
 | System | Was es ist | Wo |
 | :--- | :--- | :--- |
-| **Salati** | Gebets- und Koran-App über vier Geräteklassen, KI auf dem Gerät | [salati.pro](https://www.salati.pro) · [App Store](https://apps.apple.com/de/app/salati-gebetszeiten-koran/id6791867298) · [Play](https://play.google.com/store/apps/details?id=de.salatibox.de) · [Play TV](https://play.google.com/store/apps/details?id=de.salatibox.tv) |
-| **MenuCloud Berlin** | Multi-Tenant-SaaS für Gastronomie mit Cloud-TSE nach § 146a AO | [menucloud-berlin.de](https://menucloud-berlin.de) · [App Store](https://apps.apple.com/de/app/menucloud/id6762983057) · [Play](https://play.google.com/store/apps/details?id=de.menucloudberlin.app) |
+| **Salati** | Gebets- und Koran-App über vier Geräteklassen, KI auf dem Gerät | [salati.pro](https://www.salati.pro) · [App Store](https://apps.apple.com/de/app/salati-gebetszeiten-koran/id6791867298) · [Play](https://play.google.com/store/apps/details?id=de.salatibox.de) |
+| **MenuCloud Berlin** | Multi-Tenant-SaaS für Gastronomie mit Cloud-TSE nach § 146a AO | [menucloud-berlin.de](https://menucloud-berlin.de) |
 | **MFC** | Moran Fleet Control: Desktop-App (Windows, macOS, Linux) plus Web, mit Multi-LLM-Router, autonomer Agent-Schleife, verschlüsseltem Vault und Lizenzschutz. Einmalig 49,99 €, kein Abo | [mfc.domenicmoran.de](https://mfc.domenicmoran.de) |
 | **NOURI** | Ernährung und Training auf einem Katalog aus 11.892 Rezepten | [nouri-fitness.de](https://www.nouri-fitness.de) · [Play](https://play.google.com/store/apps/details?id=app.nouri.mobile) |
-| **BitDojo** | Deutschsprachige Lernplattform mit genau einer Lektionsbibliothek | [bitdojo.de](https://bitdojo.de) |
-| **Dartile** | Dart-Counter, der jeden Pfeil einzeln aufnimmt statt der Summe | [dartile.de](https://dartile.de) |
-| **LexiPulse** | Reader für EPUB, PDF und Web-Artikel: Wortstrom oder Fließtext, offline und offen lesbar | [lexipulse.de](https://lexipulse.de) · [Code](https://github.com/DomenicMoran/lexipulse) |
+| **BitDojo** | Deutschsprachige Lernplattform mit genau einer Lektionsbibliothek | [bitdojo.de](https://bitdojo.de) · [Play](https://play.google.com/store/apps/details?id=de.bitdojo.app) |
+| **Dartile** | Dart-Counter, der jeden Pfeil einzeln aufnimmt statt der Summe | [dartile.de](https://dartile.de) · [Play](https://play.google.com/store/apps/details?id=de.dartile.app) |
+| **LexiPulse** | Reader für EPUB, PDF und Web-Artikel: Wortstrom oder Fließtext, offline und offen lesbar | [lexipulse.de](https://lexipulse.de) · [App Store](https://apps.apple.com/de/app/lexipulse-pdf-e-book/id6801979644) · [Play](https://play.google.com/store/apps/details?id=de.lexipulse.app) · [Code](https://github.com/DomenicMoran/lexipulse) |
 | **WohnungsJäger** | Autonomer Agent für den Berliner Wohnungsmarkt, Freigabe beim Menschen | im Eigenbetrieb |
 
 Die Fallstudien mit Architekturdiagrammen stehen auf
@@ -34,24 +35,22 @@ Die Fallstudien mit Architekturdiagrammen stehen auf
 
 ---
 
-### Eingereicht und in Prüfung
+### Im August 2026 gebaut, inzwischen im Play Store
 
-Sechs Apps, gebaut im August 2026, alle eingereicht. Stand 23.08.2026, abgelesen
-in Play Console und App Store Connect: MFC Companion steht öffentlich im Play
-Store, die fünf anderen sind dort seit dem 21.08. im Status „Wird überprüft“.
-Bei Apple warten zehn Fassungen auf die Prüfung — diese sechs Apps und die
-ersten iOS-Fassungen von BitDojo, Dartile, LexiPulse und NOURI. Von diesen
-vieren liegen BitDojo, Dartile und LexiPulse seit dem 19.08. auch in der
-Play-Prüfung; die Android-Fassung von NOURI steht dort bereits öffentlich.
+Sechs Apps, gebaut im August 2026. Stand 06.09.2026, und diesmal nicht aus einer
+Konsole abgelesen: Jede Play-Adresse wurde einzeln per `curl` abgerufen, alle
+sechs antworten mit 200. Bei Apple liefert die öffentliche iTunes-Lookup-API für
+dieselben Paketnamen null Treffer — die iOS-Fassungen sind also weiterhin nicht
+im Laden.
 
 | App | Was es ist | Kategorie | Stand |
 | :--- | :--- | :--- | :--- |
-| **Vortex** | Erkennt Dropshipping und zeigt, was die Ware im Original kostet; die Auswertung läuft auf dem Gerät | — | [Web live](https://vortex.domenicmoran.de) · Android in Play-Prüfung · iOS wartet auf Prüfung |
-| **Aegis** | Bons und Rechnungen scannen, Gewährleistungs- und Garantiefristen überwachen, EÜR vorbereiten — alles lokal | Finanzen | [Web live](https://aegis.domenicmoran.de) · Android in Play-Prüfung · iOS wartet auf Prüfung |
-| **Synapse** | PDF, Foto oder Text zu Lernkarten, Wiederholung im SM-2-Rhythmus, offline | Lernen | [Web live](https://synapse.domenicmoran.de) · Android in Play-Prüfung · iOS wartet auf Prüfung |
-| **Vesper** | Bewerbungen, Vorhaben und Kontakte auf einem Kanban-Brett, mit lokal laufendem Sprachmodell | Effizienz | [Web live](https://vesper.domenicmoran.de) · Android in Play-Prüfung · iOS wartet auf Prüfung |
-| **Aether** | Der Tag als durchsuchbares Gedächtnis: Notizen, Stimmung und Sprachnotizen, lokal verschlüsselt | Effizienz | [Web live](https://aether.domenicmoran.de) · Android in Play-Prüfung · iOS wartet auf Prüfung |
-| **MFC Companion** | MFC-Nachrichten als Push aufs Handy, Antworten per Knopfdruck zurück | Tools | [Play](https://play.google.com/store/apps/details?id=de.domenicmoran.mfc.companion) · iOS wartet auf Prüfung |
+| **Vortex** | Erkennt Dropshipping und zeigt, was die Ware im Original kostet; die Auswertung läuft auf dem Gerät | — | [Web live](https://vortex.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.vortexapp.app) · iOS noch nicht im Laden |
+| **Aegis** | Bons und Rechnungen scannen, Gewährleistungs- und Garantiefristen überwachen, EÜR vorbereiten — alles lokal | Finanzen | [Web live](https://aegis.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.aegisapp.app) · iOS noch nicht im Laden |
+| **Synapse** | PDF, Foto oder Text zu Lernkarten, Wiederholung im SM-2-Rhythmus, offline | Lernen | [Web live](https://synapse.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.synapseapp.app) · iOS noch nicht im Laden |
+| **Vesper** | Bewerbungen, Vorhaben und Kontakte auf einem Kanban-Brett, mit lokal laufendem Sprachmodell | Effizienz | [Web live](https://vesper.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.vesperapp.app) · iOS noch nicht im Laden |
+| **Aether** | Der Tag als durchsuchbares Gedächtnis: Notizen, Stimmung und Sprachnotizen, lokal verschlüsselt | Effizienz | [Web live](https://aether.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.aetherapp.app) · iOS noch nicht im Laden |
+| **MFC Companion** | MFC-Nachrichten als Push aufs Handy, Antworten per Knopfdruck zurück | Tools | [Play](https://play.google.com/store/apps/details?id=de.domenicmoran.mfc.companion) · iOS noch nicht im Laden |
 
 Die Fallstudien zu diesen Apps, mit Architekturbildern, stehen auf
 [domenicmoran.de](https://domenicmoran.de/#work).
@@ -61,19 +60,18 @@ Die Fallstudien zu diesen Apps, mit Architekturbildern, stehen auf
 ### Was ich veröffentliche
 
 Die Produktivsysteme bleiben privat, sie tragen Kundendaten und lizenzierte
-Inhalte. Öffentlich ist, was sich daraus herauslösen ließ. Der Code steht unter
-MIT, mit einer Ausnahme: LexiPulse liegt vollständig offen, aber unter PolyForm
-Noncommercial — lesbar und prüfbar, nicht zur gewerblichen Nutzung freigegeben.
+Inhalte. Öffentlich ist, was sich daraus herauslösen ließ. Die fünf Pakete
+stehen unter MIT; LexiPulse liegt vollständig offen, aber unter PolyForm
+Noncommercial: lesbar und prüfbar, nicht zur gewerblichen Nutzung freigegeben.
 
 | Repository | Worum es geht |
 | :--- | :--- |
 | **[lexipulse](https://github.com/DomenicMoran/lexipulse)** | Der ganze Reader. Engine, Parser und Bereinigung ohne DOM und ohne React Native, 561 Tests (am 19.08.2026 gemessen). |
-| **[darts-checkout](https://github.com/DomenicMoran/darts-checkout)** | Die Checkout-Tafel aus Dartile. Auf 40 gibt es mit drei Darts 1012 arithmetisch richtige Wege und genau einen, den jemand wirft. 25 Tests, null Abhängigkeiten. |
+| **[darts-checkout](https://github.com/DomenicMoran/darts-checkout)** | Die Checkout-Tafel aus Dartile. Auf 40 gibt es über achtzig richtige Wege und genau einen, den jemand wirft. 25 Tests, null Abhängigkeiten. |
 | **[verified-done](https://github.com/DomenicMoran/verified-done)** | Vier Claude-Code-Skills gegen die Behauptung ohne Beleg. Jeder stammt aus einem Fehler, der ausgeliefert wurde. 16 Tests, null Abhängigkeiten. |
 | **[cron-last-due](https://github.com/DomenicMoran/cron-last-due)** | Wann war dieser Cron zuletzt fällig? Zeitzonenbewusst, für Watchdogs. 23 Tests, null Abhängigkeiten. |
 | **[whisper-ggml-header](https://github.com/DomenicMoran/whisper-ggml-header)** | Prüft, ob whisper.cpp ein Modell überhaupt lädt. Fängt die verbreitete Fehlkonvertierung ab. 17 Tests, null Abhängigkeiten. |
 | **[arabic-normalize](https://github.com/DomenicMoran/arabic-normalize)** | Normalisierung arabischer Schrift für den Vergleich. 23 Tests, null Abhängigkeiten. |
-| **[microsaas](https://github.com/DomenicMoran/microsaas)** | Elf eigenständige Werkzeuge aus MFC, je eine `.mjs`-Datei mit derselben Schnittstelle. Open Core. |
 | **[portfolio](https://github.com/DomenicMoran/portfolio)** | Der Quellcode von domenicmoran.de. Next.js 16, dokumentierte Entscheidungen. |
 | **[Zertifikate](https://github.com/DomenicMoran/certificates)** | Zehn Kurszertifikate von Meta, LearnQuest und Udemy. Jedes beim Aussteller nachprüfbar. |
 
