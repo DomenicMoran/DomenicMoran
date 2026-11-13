@@ -3,57 +3,46 @@
 **AI Product Engineer, Berlin.** Ich baue Produkte allein zu Ende: Architektur,
 Code, Auslieferung, Betrieb und Recht.
 
-Dreizehn Systeme in Produktion, seit März 2026 neben einem Vollzeitjob entstanden,
-drei davon mit Apps in beiden Stores. Neunzehn Store-Einträge sind öffentlich,
-vierzehn bei Google Play und fünf im App Store; jede Adresse wurde am 06.09.2026
-einzeln per HTTP abgerufen, nicht aus einer Konsole abgelesen. Acht iOS-Fassungen
-liegen bei Apple in der Prüfung, alle acht sind bei Google Play bereits live.
-Eines der Systeme trägt die gesetzlich vorgeschriebene
-Fiskalisierung nach § 146a AO, eines ist eine Desktop-App mit autonomer
-Agent-Schleife und Lizenzschutz, eines ein autonomer Wohnungsmarkt-Agent,
-eines eine Lernplattform mit Prüfung und Zertifikat.
+Fünf fertige Produkte, gekennzeichnete Prototypen. Seit sieben Monaten betreibe
+ich unter Moran Software fünf ausgelieferte Produkte: MenuCloud, Salati, NOURI,
+LexiPulse und Dartile — mit echten Nutzern, Zahlungen oder Store-Einträgen.
+MFC und weitere Experimente sind Prototypen.
 
 → **[domenicmoran.de](https://domenicmoran.de)** · [English](https://domenicmoran.de/en)
 
 ---
 
-### Was läuft
+### Fertige Produkte
 
 | System | Was es ist | Wo |
 | :--- | :--- | :--- |
-| **Salati** | Gebets- und Koran-App über vier Geräteklassen, KI auf dem Gerät | [salati.pro](https://www.salati.pro) · [App Store](https://apps.apple.com/de/app/salati-gebetszeiten-koran/id6791867298) · [Play](https://play.google.com/store/apps/details?id=de.salatibox.de) |
-| **MenuCloud Berlin** | Multi-Tenant-SaaS für Gastronomie mit Cloud-TSE nach § 146a AO | [menucloud-berlin.de](https://menucloud-berlin.de) |
-| **MFC** | Moran Fleet Control: Desktop-App (Windows, macOS, Linux) plus Web, mit Multi-LLM-Router, autonomer Agent-Schleife, verschlüsseltem Vault und Lizenzschutz. Einmalig 49,99 €, kein Abo | [mfc.domenicmoran.de](https://mfc.domenicmoran.de) |
-| **NOURI** | Ernährung und Training auf einem Katalog aus 11.892 Rezepten | [nouri-fitness.de](https://www.nouri-fitness.de) · [Play](https://play.google.com/store/apps/details?id=app.nouri.mobile) |
-| **BitDojo** | Deutschsprachige Lernplattform mit genau einer Lektionsbibliothek | [bitdojo.de](https://bitdojo.de) · [Play](https://play.google.com/store/apps/details?id=de.bitdojo.app) |
-| **Dartile** | Dart-Counter, der jeden Pfeil einzeln aufnimmt statt der Summe | [dartile.de](https://dartile.de) · [Play](https://play.google.com/store/apps/details?id=de.dartile.app) |
-| **LexiPulse** | Reader für EPUB, PDF und Web-Artikel: Wortstrom oder Fließtext, offline und offen lesbar | [lexipulse.de](https://lexipulse.de) · [App Store](https://apps.apple.com/de/app/lexipulse-pdf-e-book/id6801979644) · [Play](https://play.google.com/store/apps/details?id=de.lexipulse.app) · [Code](https://github.com/DomenicMoran/lexipulse) |
-| **WohnungsJäger** | Autonomer Agent für den Berliner Wohnungsmarkt, Freigabe beim Menschen | im Eigenbetrieb |
+| **MenuCloud Berlin** | Multi-Tenant-SaaS für Gastronomie mit KassenSichV und Stripe Connect, Cloud-TSE nach § 146a AO | [menucloud-berlin.de](https://menucloud-berlin.de) · [App Store](https://apps.apple.com/de/app/menucloud/id6762983057) · [Play](https://play.google.com/store/apps/details?id=de.menucloudberlin.app) · [Discovery](https://apps.apple.com/de/app/menucloud-discovery/id6763892926) · [Discovery Play](https://play.google.com/store/apps/details?id=de.menucloudberlin.discovery) |
+| **Salati** | Gebets- und Koran-App für den DACH-Raum, offline-fähig, in beiden Stores; dazu Salati TV | [salati.pro](https://www.salati.pro) · [App Store](https://apps.apple.com/de/app/salati-gebetszeiten-koran/id6791867298) · [Play](https://play.google.com/store/apps/details?id=de.salatibox.de) · [Salati TV](https://apps.apple.com/de/app/salati-tv/id6800283177) · [TV Play](https://play.google.com/store/apps/details?id=de.salatibox.tv) |
+| **NOURI** | Fitness- und Ernährungsplattform mit Web-App, Mobile-App und Katalog | [nouri-fitness.de](https://www.nouri-fitness.de) · [Play](https://play.google.com/store/apps/details?id=app.nouri.mobile) |
+| **LexiPulse** | Reader für EPUB, PDF und Web-Artikel mit Wortstrom und Fließtext | [lexipulse.de](https://lexipulse.de) · [App Store](https://apps.apple.com/de/app/lexipulse-pdf-e-book/id6801979644) · [Play](https://play.google.com/store/apps/details?id=de.lexipulse.app) · [Code](https://github.com/DomenicMoran/lexipulse) |
+| **Dartile** | Dart-Counter, der jeden Pfeil einzeln aufnimmt | [dartile.de](https://dartile.de) · [Play](https://play.google.com/store/apps/details?id=de.dartile.app) |
 
-Die Fallstudien mit Architekturdiagrammen stehen auf
+Store-Links geprüft am 13. November 2026: 14 öffentliche Einträge bei Google Play,
+fünf im App Store. Die Fallstudien mit Architekturdiagrammen stehen auf
 [domenicmoran.de](https://domenicmoran.de/#work).
 
 ---
 
-### Im August 2026 gebaut, inzwischen im Play Store
+### Prototypen
 
-Sechs Apps, gebaut im August 2026. Stand 06.09.2026, und diesmal nicht aus einer
-Konsole abgelesen: Jede Play-Adresse wurde einzeln per `curl` abgerufen, alle
-sechs antworten mit 200. Bei Apple liefert die öffentliche iTunes-Lookup-API für
-dieselben Paketnamen null Treffer — die iOS-Fassungen sind also weiterhin nicht
-im Laden.
+Experimente und frühe Systeme, klar als Prototyp gekennzeichnet.
 
-| App | Was es ist | Kategorie | Stand |
-| :--- | :--- | :--- | :--- |
-| **Vortex** | Erkennt Dropshipping und zeigt, was die Ware im Original kostet; die Auswertung läuft auf dem Gerät | — | [Web live](https://vortex.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.vortexapp.app) · iOS noch nicht im Laden |
-| **Aegis** | Bons und Rechnungen scannen, Gewährleistungs- und Garantiefristen überwachen, EÜR vorbereiten — alles lokal | Finanzen | [Web live](https://aegis.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.aegisapp.app) · iOS noch nicht im Laden |
-| **Synapse** | PDF, Foto oder Text zu Lernkarten, Wiederholung im SM-2-Rhythmus, offline | Lernen | [Web live](https://synapse.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.synapseapp.app) · iOS noch nicht im Laden |
-| **Vesper** | Bewerbungen, Vorhaben und Kontakte auf einem Kanban-Brett, mit lokal laufendem Sprachmodell | Effizienz | [Web live](https://vesper.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.vesperapp.app) · iOS noch nicht im Laden |
-| **Aether** | Der Tag als durchsuchbares Gedächtnis: Notizen, Stimmung und Sprachnotizen, lokal verschlüsselt | Effizienz | [Web live](https://aether.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.aetherapp.app) · iOS noch nicht im Laden |
-| **MFC Companion** | MFC-Nachrichten als Push aufs Handy, Antworten per Knopfdruck zurück | Tools | [Play](https://play.google.com/store/apps/details?id=de.domenicmoran.mfc.companion) · iOS noch nicht im Laden |
-
-Die Fallstudien zu diesen Apps, mit Architekturbildern, stehen auf
-[domenicmoran.de](https://domenicmoran.de/#work).
+| System | Was es ist | Wo |
+| :--- | :--- | :--- |
+| **MFC** | Prototyp. Moran Fleet Control: Chat, Agenten, Werkzeuge und Backlog in einer Oberfläche, lokal, ohne Abo | [mfc.domenicmoran.de](https://mfc.domenicmoran.de) |
+| **WohnungsJäger** | Prototyp. Autonomer Agent für den Berliner Wohnungsmarkt, Freigabe beim Menschen | im Eigenbetrieb |
+| **BitDojo** | Prototyp. Deutschsprachige Lernplattform | [bitdojo.de](https://bitdojo.de) · [Play](https://play.google.com/store/apps/details?id=de.bitdojo.app) |
+| **Vortex** | Prototyp. Erkennt Dropshipping und zeigt, was die Ware im Original kostet; die Auswertung läuft auf dem Gerät | [Web](https://vortex.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.vortexapp.app) |
+| **Aegis** | Prototyp. Bons und Rechnungen scannen, Gewährleistungs- und Garantiefristen überwachen, EÜR vorbereiten — alles lokal | [Web](https://aegis.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.aegisapp.app) |
+| **Synapse** | Prototyp. PDF, Foto oder Text zu Lernkarten, Wiederholung im SM-2-Rhythmus, offline | [Web](https://synapse.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.synapseapp.app) |
+| **Vesper** | Prototyp. Bewerbungen, Vorhaben und Kontakte auf einem Kanban-Brett, mit lokal laufendem Sprachmodell | [Web](https://vesper.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.vesperapp.app) |
+| **Aether** | Prototyp. Der Tag als durchsuchbares Gedächtnis: Notizen, Stimmung und Sprachnotizen, lokal verschlüsselt | [Web](https://aether.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.aetherapp.app) |
+| **MFC Companion** | Prototyp. MFC-Nachrichten als Push aufs Handy, Antworten per Knopfdruck zurück | [Play](https://play.google.com/store/apps/details?id=de.domenicmoran.mfc.companion) · [App Store](https://apps.apple.com/de/app/mfc-companion/id6803875845) |
 
 ---
 
@@ -66,7 +55,7 @@ Noncommercial: lesbar und prüfbar, nicht zur gewerblichen Nutzung freigegeben.
 
 | Repository | Worum es geht |
 | :--- | :--- |
-| **[lexipulse](https://github.com/DomenicMoran/lexipulse)** | Der ganze Reader. Engine, Parser und Bereinigung ohne DOM und ohne React Native, 561 Tests (am 19.08.2026 gemessen). |
+| **[lexipulse](https://github.com/DomenicMoran/lexipulse)** | Der ganze Reader. Engine, Parser und Bereinigung ohne DOM und ohne React Native. |
 | **[darts-checkout](https://github.com/DomenicMoran/darts-checkout)** | Die Checkout-Tafel aus Dartile. Auf 40 gibt es über achtzig richtige Wege und genau einen, den jemand wirft. 25 Tests, null Abhängigkeiten. |
 | **[verified-done](https://github.com/DomenicMoran/verified-done)** | Vier Claude-Code-Skills gegen die Behauptung ohne Beleg. Jeder stammt aus einem Fehler, der ausgeliefert wurde. 16 Tests, null Abhängigkeiten. |
 | **[cron-last-due](https://github.com/DomenicMoran/cron-last-due)** | Wann war dieser Cron zuletzt fällig? Zeitzonenbewusst, für Watchdogs. 23 Tests, null Abhängigkeiten. |
@@ -121,3 +110,5 @@ Genau diese Regel ist als
 ---
 
 **Kontakt** [kontakt@domenicmoran.de](mailto:kontakt@domenicmoran.de)
+
+Nebenbei: Buch „Wie ich nach 26 Jahren Frieden fand“ (BoD), [autor.domenicmoran.de](https://autor.domenicmoran.de)
