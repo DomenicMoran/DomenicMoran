@@ -3,12 +3,11 @@
 **AI Product Engineer, Berlin.** Ich baue Produkte allein zu Ende: Architektur,
 Code, Auslieferung, Betrieb und Recht.
 
-Fünf fertige Produkte, gekennzeichnete Prototypen. Seit sieben Monaten betreibe
-ich unter Moran Software fünf ausgelieferte Produkte: MenuCloud, Salati, NOURI,
-LexiPulse und Dartile — mit echten Nutzern, Zahlungen oder Store-Einträgen.
-MFC und weitere Experimente sind Prototypen.
+Seit März 2026 entstehen unter Moran Software fünf ausgelieferte Produkte:
+MenuCloud, Salati, NOURI, LexiPulse und Dartile, mit Store-Einträgen,
+Live-Systemen oder beidem. MFC und weitere Experimente sind Prototypen.
 
-→ **[domenicmoran.de](https://domenicmoran.de)** · [English](https://domenicmoran.de/en)
+**[domenicmoran.de](https://domenicmoran.de)** · [English](https://domenicmoran.de/en)
 
 ---
 
@@ -17,14 +16,14 @@ MFC und weitere Experimente sind Prototypen.
 | System | Was es ist | Wo |
 | :--- | :--- | :--- |
 | **MenuCloud Berlin** | Multi-Tenant-SaaS für Gastronomie mit KassenSichV und Stripe Connect, Cloud-TSE nach § 146a AO | [menucloud-berlin.de](https://menucloud-berlin.de) · [App Store](https://apps.apple.com/de/app/menucloud/id6762983057) · [Play](https://play.google.com/store/apps/details?id=de.menucloudberlin.app) · [Discovery](https://apps.apple.com/de/app/menucloud-discovery/id6763892926) · [Discovery Play](https://play.google.com/store/apps/details?id=de.menucloudberlin.discovery) |
-| **Salati** | Gebets- und Koran-App für den DACH-Raum, offline-fähig, in beiden Stores; dazu Salati TV | [salati.pro](https://www.salati.pro) · [App Store](https://apps.apple.com/de/app/salati-gebetszeiten-koran/id6791867298) · [Play](https://play.google.com/store/apps/details?id=de.salatibox.de) · [Salati TV](https://apps.apple.com/de/app/salati-tv/id6800283177) · [TV Play](https://play.google.com/store/apps/details?id=de.salatibox.tv) |
+| **Salati** | Gebets- und Koran-Plattform für den DACH-Raum, offline-fähig, auf Telefon, TV und Wear, in beiden Stores | [salati.pro](https://www.salati.pro) · [App Store](https://apps.apple.com/de/app/salati-gebetszeiten-koran/id6791867298) · [Play](https://play.google.com/store/apps/details?id=de.salatibox.de) · [Salati TV](https://apps.apple.com/de/app/salati-tv/id6800283177) · [TV Play](https://play.google.com/store/apps/details?id=de.salatibox.tv) |
 | **NOURI** | Fitness- und Ernährungsplattform mit Web-App, Mobile-App und Katalog | [nouri-fitness.de](https://www.nouri-fitness.de) · [Play](https://play.google.com/store/apps/details?id=app.nouri.mobile) |
 | **LexiPulse** | Reader für EPUB, PDF und Web-Artikel mit Wortstrom und Fließtext | [lexipulse.de](https://lexipulse.de) · [App Store](https://apps.apple.com/de/app/lexipulse-pdf-e-book/id6801979644) · [Play](https://play.google.com/store/apps/details?id=de.lexipulse.app) · [Code](https://github.com/DomenicMoran/lexipulse) |
 | **Dartile** | Dart-Counter, der jeden Pfeil einzeln aufnimmt | [dartile.de](https://dartile.de) · [Play](https://play.google.com/store/apps/details?id=de.dartile.app) |
 
-Store-Links geprüft am 13. November 2026: 14 öffentliche Einträge bei Google Play,
-fünf im App Store. Die Fallstudien mit Architekturdiagrammen stehen auf
-[domenicmoran.de](https://domenicmoran.de/#work).
+Aktuelle, gegen die Repositories geprüfte Zahlen stehen auf
+[domenicmoran.de](https://domenicmoran.de). Die Fallstudien mit
+Architekturdiagrammen liegen dort unter dem Abschnitt Arbeit.
 
 ---
 
@@ -38,7 +37,7 @@ Experimente und frühe Systeme, klar als Prototyp gekennzeichnet.
 | **WohnungsJäger** | Prototyp. Autonomer Agent für den Berliner Wohnungsmarkt, Freigabe beim Menschen | im Eigenbetrieb |
 | **BitDojo** | Prototyp. Deutschsprachige Lernplattform | [bitdojo.de](https://bitdojo.de) · [Play](https://play.google.com/store/apps/details?id=de.bitdojo.app) |
 | **Vortex** | Prototyp. Erkennt Dropshipping und zeigt, was die Ware im Original kostet; die Auswertung läuft auf dem Gerät | [Web](https://vortex.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.vortexapp.app) |
-| **Aegis** | Prototyp. Bons und Rechnungen scannen, Gewährleistungs- und Garantiefristen überwachen, EÜR vorbereiten — alles lokal | [Web](https://aegis.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.aegisapp.app) |
+| **Aegis** | Prototyp. Bons und Rechnungen scannen, Gewährleistungs- und Garantiefristen überwachen, EÜR vorbereiten, alles lokal | [Web](https://aegis.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.aegisapp.app) |
 | **Synapse** | Prototyp. PDF, Foto oder Text zu Lernkarten, Wiederholung im SM-2-Rhythmus, offline | [Web](https://synapse.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.synapseapp.app) |
 | **Vesper** | Prototyp. Bewerbungen, Vorhaben und Kontakte auf einem Kanban-Brett, mit lokal laufendem Sprachmodell | [Web](https://vesper.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.vesperapp.app) |
 | **Aether** | Prototyp. Der Tag als durchsuchbares Gedächtnis: Notizen, Stimmung und Sprachnotizen, lokal verschlüsselt | [Web](https://aether.domenicmoran.de) · [Play](https://play.google.com/store/apps/details?id=de.aetherapp.app) |
@@ -48,7 +47,7 @@ Experimente und frühe Systeme, klar als Prototyp gekennzeichnet.
 
 ### Was ich veröffentliche
 
-Die Produktivsysteme bleiben privat, sie tragen Kundendaten und lizenzierte
+Die Produktivsysteme bleiben privat. Sie enthalten Betriebsdaten und lizenzierte
 Inhalte. Öffentlich ist, was sich daraus herauslösen ließ. Die fünf Pakete
 stehen unter MIT; LexiPulse liegt vollständig offen, aber unter PolyForm
 Noncommercial: lesbar und prüfbar, nicht zur gewerblichen Nutzung freigegeben.
